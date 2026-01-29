@@ -12,7 +12,7 @@ export default function GsapTest() {
     () => {
       // Basic rotation and movement
       gsap.to(box.current, {
-        rotation: 360,
+        rotation: 90,
         x: 100,
         duration: 2,
         repeat: -1,
