@@ -1,5 +1,6 @@
 import GsapFrom from "@/components/GsapFrom";
 import GsapTo from "@/components/GsapTo";
+import GsapFromTo from "@/components/GsapFromTo";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <div className="w-full">
           <GsapTo />
           <GsapFrom />
+          <GsapFromTo />
         </div>
 
         <div className="text-sm text-gray-500">
